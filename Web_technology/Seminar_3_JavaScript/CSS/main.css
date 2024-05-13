@@ -1,0 +1,14 @@
+.dark {
+    background-color: black;
+    color: antiquewhite;
+}
+
+.ligth {
+    background-color: white;
+    color: rgb(20, 80, 82);
+}
+
+.Theme_button {
+    color: rgb(28, 39, 75);
+    background-color: rgb(90, 208, 238);
+}

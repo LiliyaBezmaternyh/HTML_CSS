@@ -1,0 +1,40 @@
+* {
+    text-decoration: none;
+}
+.menu__link:hover {
+    color: red;
+}
+.menu__link:active {
+    color: green;
+}
+.menu__list:first-child .menu__link {
+    text-decoration: underline;
+}
+.menu__list:last-child .menu__link {
+    font-weight: bold;
+}
+.menu__list:nth-child(3) .menu__link {
+    background-color: orange;
+}
+.icon:hover {
+    fill: aqua;
+}
+.icon:active {
+    fill: rgb(200, 136, 0);
+}
+.item {
+    height: 90px;
+    width: 180px;
+    border: 2px solid black;
+    background-color: green;
+    transition: transform 1s;
+}
+.item-1:hover {
+    transform: translateX(50px);
+}
+.item-2:hover {
+    transform: scale(2);
+}
+.item-3:hover {
+    transform: rotate(60deg);
+}
